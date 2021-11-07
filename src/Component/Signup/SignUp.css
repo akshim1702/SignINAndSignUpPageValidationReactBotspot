@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+.signUpBody{
+    /* background: url("") no-repeat center; */
+
+    background-color: black; 
+    display:flex;
+    justify-content: center;
+    padding: 45px 0px;
+    align-items: center;
+
+}
+
+.card{
+    background-color:white;
+    width: 500px;
+    height: 1100px;
+    border-radius: 15px;
+}
+
+.card-sub{
+   padding-top:55px;
+}
+
+form
+{
+    width: 100%;
+}
+
+
+.login-1{
+   font-size: 49px;
+   display: block;
+   text-align: center;
+   margin-bottom:100px;
+}
+
+
+
+.align{
+    padding: 0px 45px;
+}
+
+.user-name{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.pass{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.DOB{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.forget-sec{
+    display: block;
+   
+}
+
+.forget-sec a{
+    float: right;
+}
+
+.forget-sec div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forget-sec div input{
+  margin-left: -450px;
+}
+
+.forget-sec div p{
+  margin-left: -185px;
+}
+
+
+
+/* button   */
+
+
+
+
+.btn-deg{
+    margin-top: 100px;
+}
+
+.login-btn{
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 0px 9px 0px rgba(153, 11, 11, 0.644);
+}
+
+.login-btn-sub{
+    position: absolute;
+    z-index: -1;
+    width: 200%;
+    height: 100%;
+    background: -webkit-linear-gradient(right, #a3de00, #ec1f10, #00dbde, #f5b505);
+    background: linear-gradient(right, #f0ec21, #2bda1c, #53e410, #f01111);
+    left: -100%;
+    transition: all ease-in-out 0.4s;
+}
+
+button{
+    font-size: 16px;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background: transparent;
+    height: 50px;
+}
+
+.login-btn:hover .login-btn-sub{
+    left: 0;
+}
+
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.Login p {
+    padding: 0px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+input{
+    outline:none;
+    width:100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 20px 0px;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(122, 92, 92, 0.801);
+}
+
+a:hover{
+    color: purple;
+}
+
+label{
+    font-size:22px;
+}
+
+
+
+
+
+.color{
+    color:red;
+}
