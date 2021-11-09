@@ -145,11 +145,18 @@
 
 
 
-input{
+input:valid{
     outline:none;
     width:100%;
     border: none;
     border-bottom: 1px solid black;
+    padding: 20px 0px;
+}
+input:invalid{
+    outline:none;
+    width:100%;
+    border: none;
+    border-bottom: 1px solid red;
     padding: 20px 0px;
 }
 

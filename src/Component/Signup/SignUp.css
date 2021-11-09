@@ -21,7 +21,7 @@
 .card{
     background-color:white;
     width: 500px;
-    height: 1100px;
+    height: 1200px;
     border-radius: 15px;
 }
 
@@ -112,8 +112,7 @@ form
     z-index: -1;
     width: 200%;
     height: 100%;
-    background: -webkit-linear-gradient(right, #a3de00, #ec1f10, #00dbde, #f5b505);
-    background: linear-gradient(right, #f0ec21, #2bda1c, #53e410, #f01111);
+    background: linear-gradient(to right, #f0ec21, #2bda1c, #53e410, #f01111);
     left: -100%;
     transition: all ease-in-out 0.4s;
 }

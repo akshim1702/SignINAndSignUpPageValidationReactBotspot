@@ -13,6 +13,9 @@ const Login = ({ submitForm }) => {
         if (values.name.length === 0) {
             setName(false);
         }
+        else if(errors.email){
+            setName(false);
+        }
         else {
             setName(true)
         }
@@ -55,7 +58,7 @@ const Login = ({ submitForm }) => {
                                 </div>
                                 <div className="pass">
                                     <p><label htmlFor="password">Password</label></p>
-                                    <input type="password" minLength='8' name="password" id="password" value={values.password} style={password ? { borderBottom: '1px solid black' } : { borderBottom: '1px solid red' }} onChange={handleChange} placeholder="enter your password here" />
+                                    <input type="password" minLength='8' name="password" id="password" value={values.password} style={password ? { borderBottom: '1px solid black' } : { borderBottom: '1px solid red' }} onChange={handleChange} placeholder="enter your password here"/>
                                     {errors.password && <p className="color">{errors.password}</p>}
                                 </div>
                                 <div className="forget-sec">
@@ -63,7 +66,7 @@ const Login = ({ submitForm }) => {
                                         <input type="checkbox" name="show_pass" id="show_pass" onClick={()=>{show()}} />
                                         <p>Show Password</p>
                                     </div>
-                                    <a href="#">Forget Password?</a>
+                                    <Link>Forget Password?</Link>
                                 </div>
                                 <div className="btn-deg">
                                     <div className="login-btn">
